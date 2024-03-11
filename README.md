@@ -1,6 +1,6 @@
 # React Three Fiber(R3F) Projects Page
 
-This repository contains the code for my React Three Fiber(R3F) projects page, where I showcase various projects I've worked on. Each project is represented by a shader image rendered using Three.js.
+This repository contains the code for my React Three Fiber(R3F) projects page, where I showcase various projects I've worked on. Each project is represented by a shader image rendered using Three.js. The meat of the code can be found in the App.js file.
 
 ## Technologies Used
 
