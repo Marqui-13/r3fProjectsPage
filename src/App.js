@@ -3,10 +3,7 @@ import React, { useRef, useState, useEffect, Suspense } from "react";
 import { Canvas, extend, useFrame, useLoader } from "@react-three/fiber";
 import { shaderMaterial } from "@react-three/drei";
 import glsl from "babel-plugin-glsl/macro";
-import "./App.css";
 import ProjectsHeader from './projectsHeader.js';
-import "./Navbar.js"
-import Navbar from "./Navbar.js";
 
 const WaveShaderMaterial = shaderMaterial(
   {
@@ -148,7 +145,6 @@ const App = () => {
 
   return (
     <>
-      <Navbar projects={projects} />
       {hoveredProjectName && (
           <div className="hovered-project-name">{hoveredProjectName}</div>
       )}
